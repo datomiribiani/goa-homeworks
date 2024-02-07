@@ -10,30 +10,30 @@ surname="miribiani"
 
 name = "dato" # ეს არის str (string) ტიპის ცვლადი
 age = 13 # ეს არის int (ibteger) მთელი რიცხვი
-heigh =168.2  #ეს არის float  ტიპის ცვლადი (ათწილადი)
+height =168.2  #ეს არის float  ტიპის ცვლადი (ათწილადი)
 #boolean (boll)ტიპის ცვლადი 
 
-knows_programing = Teues # true ან false
-is_ugly = false  #snakecase (უბრადოლ წერის სტილი სტანდარტულად )
+knows_programing = True # true ან false
+is_ugly = False  #snakecase (უბრადოლ წერის სტილი სტანდარტულად )
 
-isUgly # ჯავასკრიპტული  camelcase 
+# isUgly # ჯავასკრიპტული  camelcase 
 
 
-print (name + " " surname)
+print (name + " " + surname)
 #სტრინგი არის ბრჭტყალებში მოცემული სიმბოლოები 
-print (names + age)
+print (name + age)
 
 print(type(age ))
 print(type( name))
 print(type( surname))
-print(type( heigt))
-print(type(kmows_program))
+print(type( height))
+print(type(knows_programing))
 
-print(names + " " str(age))
-
-
-my homeworks 
-print((my name dato),+ (my surname miribiani),+ float(my heigt 162.2),+strn (my age 13))
+print(name + " " + str(age))
 
 
-my homeworks nubmber 2
+# my homeworks 
+print ("my name dato"+"my surname miribiani"+ float( height )+str ( age ))
+
+
+# my homeworks nubmber 2
