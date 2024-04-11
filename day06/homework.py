@@ -5,7 +5,7 @@ user_name = input ("what isyour surname?:")
 
 
 
-print(user_name  "your name is" + user_surname + "your surname is " + user_name + "and you are " + user_age )
+print ( user_name  "your name is" + user_surname + "your surname is " + user_name + "and you are " + user_age )
 
 
 #2
